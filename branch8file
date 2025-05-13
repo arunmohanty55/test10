@@ -1,0 +1,32 @@
+  public static int subtract(int a, int b) {
+        return a - b;
+    }
+
+    // Main method – entry point of Java program
+    public static void main(String[] args) {
+        int num1 = 10;
+        int num2 = 5;
+
+        System.out.println("Number 1: " + num1);
+        System.out.println("Number 2: " + num2);
+
+        int sum = add(num1, num2);
+        int difference = subtract(num1, num2);
+
+        System.out.println("Sum: " + sum);
+        System.out.println("Difference: " + difference);
+
+        // If-else example
+        if (sum > 10) {
+            System.out.println("The sum is greater than 10.");
+        } else {
+            System.out.println("The sum is 10 or less.");
+        }
+
+        // Loop example
+        System.out.println("Counting from 1 to 5:");
+        for (int i = 1; i <= 5; i++) {
+            System.out.println(i);
+        }
+    }
+}
